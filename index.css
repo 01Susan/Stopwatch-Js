@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #448aff;
+}
+.content{
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-shadow:rgb(50 50 93 / 60%) 0px 50px 100px -20px, rgb(0 0 0) 0px 30px 60px -30px, rgb(10 37 64 / 100%) 0px -2px 6px 0px inset;
+}
+
+header{
+    font-size: 2rem;
+    color: #448aff;
+    margin-bottom: 1.4rem;
+}
+
+#displaytimer{
+    font-size: 2rem;
+    color: #0381bb;
+    font-family:'Roboto Mono', monospace;
+}
+
+.btn{
+    padding: 8px 14px;
+    border-radius: 6px;
+    margin-right: 1rem;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:0px 10px 7px rgba(0, 0, 0, 50%) ;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+#pause{
+    color: white;
+    background-color: #448aff;
+}
+#pause:hover{
+    box-shadow: 0px 15px 20px #448aff;
+}
+
+#start{
+    color: white;
+    background-color: #d23332;
+}
+#start:hover{
+    box-shadow: 0px 15px 20px #d23332;
+}
+
+#reset{
+    color: white;
+    background-color: #20b380;
+}
+#reset:hover{
+    box-shadow: 0px 15px 20px #20b380;
+}
